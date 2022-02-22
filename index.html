@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>RocknTrade Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="icon" href="images/ico/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" href="images/ico/favicon-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon-180x180.png" />
+  <!--CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/loader.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/swiper.css" />
+  <link rel="stylesheet" href="css/lightgallery.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <!--JS-->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/loader.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="css-loader">
+    <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
+  </div>
+  <header class="position-fixed w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Multipurpose" /></a>
+        <div class="group d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" href="javascript:goto('#home')" id="i18n-home">首頁</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" href="javascript:goto('#about')" id="i18n-aboutUs">關於我們</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" href="javascript:goto('#service')" id="i18n-services">服務項目</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" href="javascript:goto('#portfolio')" id="i18n-spirit">品牌形象</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <a class="nav-link" href="javascript:goto('#contact')" id="i18n-contactUs">聯絡我們</a>
+            </li>
+
+            <!-- <li class="nav-item lang-switch" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false">
+              <div onclick="changeLang('zh-TW')">繁</div> <span>|</span>
+              <div onclick="changeLang('zh-CN')">簡</div> <span>|</span>
+              <div onclick="changeLang('en')">EN</div>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section id="home" class="hero">
+    <div class="">
+      <div class="row">
+        <div class="col-12">
+          <div class="swiper-container hero-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-content d-flex align-items-center"
+                style="background: url(images/banner-01.jpg) center">
+                <div class="container">
+                  <h1 data-aos="fade-right" data-aos-delay="200">
+                    先進的白標解決方案
+                  </h1>
+                </div>
+              </div>
+              <div class="swiper-slide slide-content d-flex align-items-center"
+                style="background: url(images/banner-02.jpg) center">
+                <div class="container">
+                  <h1 data-aos="fade-right" data-aos-delay="200">
+                    領先的流動性和技術供應商
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="arr-left"><i class="fas fa-chevron-left"></i></span>
+      <span class="arr-right"><i class="fas fa-chevron-right"></i></span>
+    </div>
+    <div class="texture"></div>
+    <div class="diag-bg"></div>
+  </section>
+  <section class="cta" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="cta-content">
+        <div class="content" data-aos="fade-right" data-aos-delay="200">
+          <h3>“ Rock and Trade ”</h3>
+          <p>
+            全球頂級中優質多資產流動性及技術白標解決方案供應商,
+            為經紀商及交易所提供服務。
+          </p>
+        </div>
+        <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0"></div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">
+          <div class="title">
+            <h6 class="title-red">About US</h6>
+            <h1 class="title-red">關於我們</h1>
+          </div>
+          <p>
+            我們承諾要成為客戶的夥伴，提供網路多資產流動性及技術白標解決方案，以最尖端的技術，幫助經紀商和交易公司，通過建立成功、透明和符合道德的環境，加強他們的業務，大幅提升客戶的品牌價值。
+            我們將會為您建立一個您自有的金融業務，在短時間內和合理成本下，把您連結到市場，並提供所有創新的尖端技術。
+            我們期待與您共同創造最大效益，成為彼此最堅實的夥伴。
+          </p>
+          <div class="media-element d-flex justify-content-between">
+            <div class="media">
+              <i class="fas fa-magic mr-4"></i>
+              <div class="media-body">
+                <h5>規劃、建置及開發</h5>
+                MetaTrader 4/5<br />
+                外匯及股票差價合約<br />
+                軟件解決方案<br />
+                各方系統維護<br />
+                企業服務
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="featured-img">
+            <img data-aos="fade-left" data-aos-delay="300" class="featured-big" src="images/featured-img1.jpg"
+              alt="Featured 1" />
+            <img data-aos="fade-left" data-aos-delay="600" class="featured-small" src="images/featured-img2.jpg"
+              alt="Featured 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="service" class="services">
+    <div class="container">
+      <div class="title text-center">
+        <h6 class="title-blue">Our Service</h6>
+        <h1 class="title-blue">服務項目</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+              <img class="mr-4" src="images/service1.png" alt="Web Development" />
+              <div class="media-body">
+                <h5>MetaTrader 4/5</h5>
+                <ul>
+                  <li>MetaTrader 4 白標</li>
+                  <li>MetaTrader 5 白標</li>
+                  <li>MT4/5設置及支持</li>
+                  <li>插件開發</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="media" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+              <img class="mr-4" src="images/service2.png" alt="Web Development" />
+              <div class="media-body">
+                <h5>外匯及股票差價合約</h5>
+                <ul>
+                  <li>介面&流程規劃</li>
+                  <li>一站式外匯經紀商</li>
+                  <li>協助獲取外匯許可證</li>
+                  <li>交易平台及應用程序接口</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="media" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+              <img class="mr-4" src="images/service3.png" alt="Web Development" />
+              <div class="media-body">
+                <h5>軟件解決方案</h5>
+                <ul>
+                  <li>貨幣匯率網頁插件</li>
+                  <li>移動應用</li>
+                  <li>電商解決方案</li>
+                  <li>加密支付系統</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+              <img class="mr-4" src="images/service4.png" alt="Web Development" />
+              <div class="media-body">
+                <h5>各方系統維護</h5>
+                <ul>
+                  <li>內容維護</li>
+                  <li>版本升級維護</li>
+                  <li>系統分析</li>
+                  <li>系統優化</li>
+                  <li>安全性管理</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="media" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+              <img class="mr-4" src="images/service5.png" alt="Web Development" />
+              <div class="media-body">
+                <h5>企業服務</h5>
+                <ul>
+                  <li>外匯執照</li>
+                  <li>支付牌照</li>
+                  <li>公司註冊</li>
+                  <li>網頁設計</li>
+                  <li>其他公司服務</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="recent-posts">
+    <div class="container">
+      <div class="title text-center">
+        <h6 class="title-red">Spirit</h6>
+        <h1 class="title-red">品牌形象</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right" data-aos-duration="800">
+            <div class="post-content text-sm-right">
+              <b>Integration</b>
+              <h3>解決方案整合</h3>
+              <p>整合所有市場上最受歡迎的解決方案，讓我們的客戶可以在同一個地方取得一切</p>
+            </div>
+            <div class="post-thumb">
+              <img class="img-fluid" src="images/post1.jpg" alt="Post 1" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-duration="800">
+            <div class="post-thumb">
+              <img class="img-fluid" src="images/post2.jpg" alt="Post 1" />
+            </div>
+            <div class="post-content">
+              <b>Support</b>
+              <h3>24/7 技術支持</h3>
+              <p>
+                我們提供機構級別的工具和技術，當要解決問題時，以定制處理方式來完善這些能力。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right" data-aos-delay="200"
+            data-aos-duration="800">
+            <div class="post-content text-sm-right">
+              <b>Personalized manager</b>
+              <h3>個人客戶經理</h3>
+              <p>自簽署合約起，一直在您邁向成功的路上陪伴您，為您服務。</p>
+            </div>
+            <div class="post-thumb">
+              <img class="img-fluid" src="images/post3.jpg" alt="Post 1" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-delay="200"
+            data-aos-duration="800">
+            <div class="post-thumb">
+              <img class="img-fluid" src="images/post4.jpg" alt="Post 1" />
+            </div>
+            <div class="post-content">
+              <b>Professional tools</b>
+              <h3>專業化工具</h3>
+              <p>
+                專業獲取外匯，加密貨幣差價合約 (CFD)及加密貨幣流動性，為我們所有的客戶，提供多種連結方式。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta cta2" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="cta-content">
+        <div class="content" data-aos="fade-right" data-aos-delay="200">
+          <h2>聯絡我們<span>Contact Us</span></h2>
+          <p>
+            <span><i class="fas fa-mobile"></i>行動通訊：+86-4001-203-612<br /></span>
+            <span><i class="fas fa-phone"></i>公司電話：+86-4001-203-612<br /></span>
+            <i class="fas fa-envelope"></i>E-Mail：<a href="mailto:cs@wcgmarkets.com"
+              class="__cf_email__">cs@wcgmarkets.com</a><br />
+            <i class="fas fa-location-arrow"></i></i> <span>地址： 香港上環禧利街27號富輝商業中心702室</span> <br />
+            <i class="fas fa-clock"></i>辦公時間：週一至週五 / AM 9:00 - PM
+            6:00<br />
+            <i class="fas fa-concierge-bell"></i>服務時間： 24/7<br />
+          </p>
+          <img src="images/qrcode.jpg" />
+        </div>
+        <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map" data-aos="fade-up" data-aos-delay="0">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.8104032239225!2d114.14905491532761!3d22.28517074907464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007c14e73ebd%3A0x6449374fcdd5fb7c!2z5a-M6Lyd5ZWG5qWt5Lit5b-D!5e0!3m2!1sen!2stw!4v1645498189307!5m2!1sen!2stw"
+      width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </section>
+  <footer>
+    <div class="foot-note">
+      <div class="container">
+        <p class="mb-0" data-aos="fade-right" data-aos-offset="0">
+          &copy; 2022 All Rights Reserved. Design Rock and Trade.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/i18n.js"></script>
+</body>
+<div class="gotop"></div>
+
+</html>
