@@ -67,7 +67,7 @@
               aria-controls="navbarSupportedContent" aria-expanded="false">
               <a class="nav-link" href="javascript:goto('#contact')" id="i18n-contactUs">聯絡我們</a>
             </li>
-
+            <!-- remove i18n -->
             <!-- <li class="nav-item lang-switch" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false">
               <div onclick="changeLang('zh-TW')">繁</div> <span>|</span>
@@ -144,11 +144,11 @@
               <i class="fas fa-magic mr-4"></i>
               <div class="media-body">
                 <h5>規劃、建置及開發</h5>
-                MetaTrader 4/5<br />
-                外匯及股票差價合約<br />
-                軟件解決方案<br />
-                各方系統維護<br />
-                企業服務
+                <span>MetaTrader 4/5</span> <br />
+                <span>外匯及股票差價合約</span> <br />
+                <span>軟件解決方案</span> <br />
+                <span>各方系統維護</span> <br />
+                <span>企業服務</span>
               </div>
             </div>
           </div>
@@ -317,19 +317,22 @@
   <section id="contact" class="cta cta2" data-aos="fade-up" data-aos-delay="0">
     <div class="container">
       <div class="cta-content">
-        <div class="content" data-aos="fade-right" data-aos-delay="200">
-          <h2>聯絡我們<span>Contact Us</span></h2>
-          <p>
-            <span><i class="fas fa-mobile"></i>行動通訊：+86-4001-203-612<br /></span>
-            <span><i class="fas fa-phone"></i>公司電話：+86-4001-203-612<br /></span>
-            <i class="fas fa-envelope"></i>E-Mail：<a href="mailto:cs@wcgmarkets.com"
-              class="__cf_email__">cs@wcgmarkets.com</a><br />
-            <i class="fas fa-location-arrow"></i></i> <span>地址： 香港上環禧利街27號富輝商業中心702室</span> <br />
-            <i class="fas fa-clock"></i>辦公時間：週一至週五 / AM 9:00 - PM
-            6:00<br />
-            <i class="fas fa-concierge-bell"></i>服務時間： 24/7<br />
-          </p>
-          <img src="images/qrcode.jpg" />
+        <div data-aos="fade-right" data-aos-delay="200">
+          <span>Contact Us</span>
+          <h2>聯絡我們</h2>
+          <div class="content">
+            <div>
+              <i class="fas fa-mobile"></i><span>行動通訊：+86-4001-203-612</span><br />
+              <i class="fas fa-phone"></i><span>公司電話：+86-4001-203-612</span><br />
+              <i class="fas fa-envelope"></i>E-Mail：<a href="mailto:cs@wcgmarkets.com"
+                >cs@wcgmarkets.com</a><br />
+            </div>
+            <div> <i class="fas fa-location-arrow"></i></i><span>公司地址： 香港上環禧利街27號富輝商業中心702室</span> <br />
+              <i class="fas fa-clock"></i><span>辦公時間：週一至週五 / AM 9:00 - PM
+                6:00</span><br />
+              <i class="fas fa-concierge-bell"></i><span>服務時間： 24/7</span><br />
+            </div>
+          </div>
         </div>
         <div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0"></div>
       </div>
@@ -351,7 +354,8 @@
       </div>
     </div>
   </footer>
-  <script src="js/i18n.js"></script>
+  <!-- remove i18n -->
+  <!-- <script src="js/i18n.js"></script> -->
 </body>
 <div class="gotop"></div>
 

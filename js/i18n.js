@@ -43,7 +43,7 @@ resources['zh-CN'] = {
   services: '服务项目',
   spirit: '品牌形象',
   contactUs: '联络我们',
-  address: '地址: 香港上环禧利街27号富辉商业中心702室'
+  address: '公司地址: 香港上环禧利街27号富辉商业中心702室'
 };
 
 resources['zh-TW'] = {
@@ -52,7 +52,7 @@ resources['zh-TW'] = {
   services: '服務項目',
   spirit: '品牌形象',
   contactUs: '聯絡我們',
-  address: '地址: 香港上環禧利街27號富輝商業中心702室'
+  address: '公司地址: 香港上環禧利街27號富輝商業中心702室'
 };
 
 function getTargetLang() {
