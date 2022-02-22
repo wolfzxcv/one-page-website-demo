@@ -354,11 +354,6 @@ form button.btn-primary:hover {
   margin-right: 30px;
 }
 
-.cta-content .content {
-  display: flex;
-  justify-content: space-around;
-}
-
 .cta-content .content > div {
   text-align: left;
 }
