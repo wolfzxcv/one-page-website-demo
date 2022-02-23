@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-  <meta name="version" content="1.0.0">
-  <link rel="icon" href="images/ico/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" href="images/ico/favicon-192x192.png" sizes="192x192" />
-  <link rel="apple-touch-icon-precomposed" href="images/ico/favicon-180x180.png" />
+  <meta name="version" content="1.1.0">
+  <link rel="icon" href="config/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" href="config/favicon-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="config/favicon-180x180.png" />
   <!--CSS-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
     integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
@@ -38,7 +38,7 @@
   <header class="position-fixed w-100">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Multipurpose" /></a>
+        <a class="navbar-brand" href="index.html"><img src="config/logo.png" alt="Multipurpose" /></a>
         <div class="group d-flex align-items-center">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
               aria-controls="navbarSupportedContent" aria-expanded="false">
               <a class="nav-link" href="javascript:goto('#contact')" id="i18n-contactUs">聯絡我們</a>
             </li>
-            <!-- remove i18n -->
+            <!-- i18n -->
             <!-- <li class="nav-item lang-switch" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false">
               <div onclick="changeLang('zh-TW')">繁</div> <span>|</span>
@@ -117,7 +117,7 @@
     <div class="container">
       <div class="cta-content">
         <div data-aos="fade-right" data-aos-delay="200">
-          <h3>“ Rock and Trade ”</h3>
+          <h3 id="website-name">“ Rock and Trade ”</h3>
           <p>
             全球頂級中優質多資產流動性及技術白標解決方案供應商,
             為經紀商及交易所提供服務。
@@ -325,7 +325,8 @@
             <div>
               <!-- <i class="fas fa-mobile"></i><span>行動通訊：+86-4001-203-612</span><br />
               <i class="fas fa-phone"></i><span>公司電話：+86-4001-203-612</span><br /> -->
-              <i class="fas fa-envelope"></i>E-Mail：<a href="mailto:support@rockntrade.com">support@rockntrade.com</a><br />
+              <i class="fas fa-envelope"></i>E-Mail：<a
+                href="mailto:support@rockntrade.com">support@rockntrade.com</a><br />
               <i class="fas fa-location-arrow"></i></i><span>地址： 香港上環禧利街27號富輝商業中心702室</span><br />
             </div>
             <div>
@@ -355,8 +356,10 @@
       </div>
     </div>
   </footer>
-  <!-- remove i18n -->
+  <!-- i18n -->
   <!-- <script src="js/i18n.js"></script> -->
+  <!--JS-->
+  <script src="config/config.js"></script>
 </body>
 <div class="gotop"></div>
 
