@@ -168,7 +168,7 @@ a.nav-link:hover {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ddd;
+  color: #555;
 }
 
 .navbar-collapse .nav-link:hover {
@@ -1021,7 +1021,7 @@ span {
   cursor: pointer;
   position: fixed;
   right: 10px;
-  bottom: 80px;
+  bottom: 15px;
   z-index: 100;
   display: none;
 }
